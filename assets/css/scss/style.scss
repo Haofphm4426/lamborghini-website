@@ -1956,7 +1956,7 @@ a {
 }
 
 #footer {
-  background-color: #181818;
+  background-color: #fff;
   padding: 0 17rem;
 
   @include both {
@@ -1981,6 +1981,7 @@ a {
         display: flex;
         justify-content: flex-start;
         padding-left: 0;
+        list-style: none;
 
         @include both {
           width: 100%;
